@@ -1,0 +1,29 @@
+---
+abstract: 'Scan for Modules loaded by Catalyst'
+author:
+  - 'Caleb Cushing <xenoterracide@gmail.com>'
+build_requires:
+  English: 0
+  File::Find: 0
+  File::Temp: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200007, CPAN::Meta::Converter version 2.110930'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Perl-PrereqScanner-Scanner-Catalyst
+no_index:
+  file:
+    - perlcritic.rc
+requires:
+  Moose: 0
+  Perl::PrereqScanner::Scanner: 0
+  perl: 5.006
+resources:
+  bugtracker: http://github.com/xenoterracide/dist/issues
+  repository: git://github.com/xenoterracide/dist.git
+version: 0.1.0
